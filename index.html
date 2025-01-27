@@ -14,21 +14,78 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .poppins-thin-font {
+        .poppins-font {
             font-family: "Poppins", serif;
         }
     </style>
 </head>
 
-<body>
-    <header>
+<body class="poppins-font">
+    <header class="container mx-auto">
+        <!-- Nav-section -->
+        <div class="navbar bg-base-100 container mx-auto mt-12">
+            <!-- Nav-start -->
+            <div class="navbar-start">
+              <a class="btn btn-ghost text-4xl font-bold">Bike Dekho</a>
+            </div>
+            <!-- Nav-end -->
+            <div class="navbar-end hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-medium text-base">Home</a></li>
+                <li><a class="font-medium text-base">Shop</a></li>
+                <li><a class="font-medium text-base">News</a></li>
+                <li><a class="font-medium text-base">Contact</a></li>
+              </ul>
+            </div>
+            <div>
+                <button class="text-xl font-bold text-[#FFFFFF] bg-[#E76F51] py-5 px-12 rounded-md ml-12">Login</button>
+            </div>
 
+        </div>
+
+        <!-- Banner-section -->
+        <div class="carousel w-full bg-red-50 mt-12">
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="grid grid-cols-2">
+                    <div class="my-28 ml-28">
+                        <h1 class="text-6xl font-bold mb-5 leading-tight">Ride-on R15 V4 <br>with Smile</h1>
+                        <p class="text-base font-light mb-7">Amet minim mollit non deserunt ullamco 
+                            <br>est sit aliqua dolor do amet sint. Velit officia consequat <br>duis enim velit mollit.</p>
+                        <button class="text-xl font-bold text-[#FFFFFF] bg-[#E76F51] py-5 px-12 rounded-md">Purchase</button>
+                    </div>
+                    <div class="ml-72 my-28">
+                        <img src="images/others/extrabike.png" alt="">
+                    </div>
+                </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="pl-5">❮</a>
+                <a href="#slide2" class="pr-5">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="grid grid-cols-2">
+                    <div class="my-28 ml-28">
+                        <h1 class="text-6xl font-bold mb-5 leading-tight">Ride-on R15 V4 <br>with Smile</h1>
+                        <p class="text-base font-light mb-7">Amet minim mollit non deserunt ullamco 
+                            <br>est sit aliqua dolor do amet sint. Velit officia consequat <br>duis enim velit mollit.</p>
+                        <button class="text-xl font-bold text-[#FFFFFF] bg-[#E76F51] py-5 px-12 rounded-md">Purchase</button>
+                    </div>
+                    <div class="ml-72 my-28">
+                        <img src="images/others/extrabike.png" alt="">
+                    </div>
+                </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="pl-5">❮</a>
+                <a href="#slide1" class="pr-5">❯</a>
+              </div>
+            </div>
+          </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 
