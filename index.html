@@ -22,12 +22,13 @@
 
 <body class="poppins-font">
     <header class="container mx-auto">
-        <!-- Nav-section -->
-        <div class="navbar bg-base-100 container mx-auto mt-12">
+        <!-- Nav-Section -->
+        <div class="max-w-x navbar bg-base-100 lg:container mx-auto mt-12">
             <!-- Nav-start -->
-            <div class="navbar-start">
+            <div class="navbar-start hidden lg:flex">
               <a class="btn btn-ghost text-4xl font-bold">Bike Dekho</a>
             </div>
+            
             <!-- Nav-end -->
             <div class="navbar-end hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -36,49 +37,128 @@
                 <li><a class="font-medium text-base">News</a></li>
                 <li><a class="font-medium text-base">Contact</a></li>
               </ul>
-            </div>
-            <div>
+              <div>
                 <button class="text-xl font-bold text-[#FFFFFF] bg-[#E76F51] py-5 px-12 rounded-md ml-12">Login</button>
+            </div>
+            </div>
+            <!-- SM layout Menu -->
+            <div class="">
+                <div class="dropdown lg:hidden absolute right-0 pl-10 rotate-180">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-10 w-10"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h7" />
+                      </svg>
+                    </div>
+                </div>
             </div>
 
         </div>
 
-        <!-- Banner-section -->
+        <!-- Banner-Section -->
         <div class="carousel w-full bg-red-50 mt-12">
+            <!-- Slide-1 -->
             <div id="slide1" class="carousel-item relative w-full">
-                <div class="grid grid-cols-2">
-                    <div class="my-28 ml-28">
-                        <h1 class="text-6xl font-bold mb-5 leading-tight">Ride-on R15 V4 <br>with Smile</h1>
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <div class="py-14 pl-14 lg:py-28 lg:pl-28">
+                        <h1 class="text-4xl lg:text-6xl font-bold mb-5 leading-tight">Ride-on R15 V4 <br>with Smile</h1>
                         <p class="text-base font-light mb-7">Amet minim mollit non deserunt ullamco 
                             <br>est sit aliqua dolor do amet sint. Velit officia consequat <br>duis enim velit mollit.</p>
                         <button class="text-xl font-bold text-[#FFFFFF] bg-[#E76F51] py-5 px-12 rounded-md">Purchase</button>
                     </div>
-                    <div class="ml-72 my-28">
+                    <div class="mx-auto lg:ml-72 lg:my-28 mb-10">
                         <img src="images/others/extrabike.png" alt="">
                     </div>
                 </div>
               <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" class="pl-5">❮</a>
-                <a href="#slide2" class="pr-5">❯</a>
+                <a href="#slide1" class="pl-5 text-2xl">❮</a>
+                <a href="#slide2" class="pr-5 text-2xl">❯</a>
               </div>
             </div>
+            <!-- Slide-2 -->
             <div id="slide2" class="carousel-item relative w-full">
-                <div class="grid grid-cols-2">
-                    <div class="my-28 ml-28">
-                        <h1 class="text-6xl font-bold mb-5 leading-tight">Ride-on R15 V4 <br>with Smile</h1>
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <div class="py-14 pl-14 lg:py-28 lg:pl-28">
+                        <h1 class="text-4xl lg:text-6xl font-bold mb-5 leading-tight">Ride-on R15 V4 <br>with Smile</h1>
                         <p class="text-base font-light mb-7">Amet minim mollit non deserunt ullamco 
                             <br>est sit aliqua dolor do amet sint. Velit officia consequat <br>duis enim velit mollit.</p>
                         <button class="text-xl font-bold text-[#FFFFFF] bg-[#E76F51] py-5 px-12 rounded-md">Purchase</button>
                     </div>
-                    <div class="ml-72 my-28">
+                    <div class="mx-auto lg:ml-72 lg:my-28 mb-10">
                         <img src="images/others/extrabike.png" alt="">
                     </div>
                 </div>
               <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide1" class="pl-5">❮</a>
-                <a href="#slide1" class="pr-5">❯</a>
+                <a href="#slide1" class="pl-5 text-2xl">❮</a>
+                <a href="#slide3" class="pr-5 text-2xl">❯</a>
               </div>
             </div>
+            <!-- Slide-3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <div class="py-14 pl-14 lg:py-28 lg:pl-28">
+                        <h1 class="text-4xl lg:text-6xl font-bold mb-5 leading-tight">Ride-on R15 V4 <br>with Smile</h1>
+                        <p class="text-base font-light mb-7">Amet minim mollit non deserunt ullamco 
+                            <br>est sit aliqua dolor do amet sint. Velit officia consequat <br>duis enim velit mollit.</p>
+                        <button class="text-xl font-bold text-[#FFFFFF] bg-[#E76F51] py-5 px-12 rounded-md">Purchase</button>
+                    </div>
+                    <div class="mx-auto lg:ml-72 lg:my-28 mb-10">
+                        <img src="images/others/extrabike.png" alt="">
+                    </div>
+                </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="pl-5 text-2xl">❮</a>
+                <a href="#slide4" class="pr-5 text-2xl">❯</a>
+              </div>
+            </div>
+            <!-- Slide-4 -->
+            <div id="slide4" class="carousel-item relative w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <div class="py-14 pl-14 lg:py-28 lg:pl-28">
+                        <h1 class="text-4xl lg:text-6xl font-bold mb-5 leading-tight">Ride-on R15 V4 <br>with Smile</h1>
+                        <p class="text-base font-light mb-7">Amet minim mollit non deserunt ullamco 
+                            <br>est sit aliqua dolor do amet sint. Velit officia consequat <br>duis enim velit mollit.</p>
+                        <button class="text-xl font-bold text-[#FFFFFF] bg-[#E76F51] py-5 px-12 rounded-md">Purchase</button>
+                    </div>
+                    <div class="mx-auto lg:ml-72 lg:my-28 mb-10">
+                        <img src="images/others/extrabike.png" alt="">
+                    </div>
+                </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="pl-5 text-2xl">❮</a>
+                <a href="#slide4" class="pr-5 text-2xl">❯</a>
+              </div>
+            </div>
+        </div>
+
+          <!-- Featured Bike Section -->
+           <div class="mt-40 max-w-xs lg:container mx-auto">
+                <!-- Title -->
+                <div class="lg:max-w-2xl mx-auto text-center mb-12">
+                    <h1 class="text-2xl lg:text-5xl font-semibold mb-3">Featured Bikes In This Year</h1>
+                    <p class="text-sm text-[#E76F51] font-semibold mb-1">Best bike collection</p>
+                    <hr class="sm:hidden lg:block w-16 h-0.5 bg-[#E76F51] mx-auto">
+                </div>
+                <!-- Bikes -->
+                <div class="lg:flex justify-between grid-c">
+                    <img class="filter grayscale sm:pt-24 sm:pb-28" src="images/others/feature-bike.png" alt="">
+                    <img class="sm:pt-24 sm:pb-28" src="images/others/feature-bike.png" alt="">
+                    <img class="filter grayscale sm:pt-24 sm:pb-28" src="images/others/feature-bike.png" alt="">
+                </div>
+           </div>
+
+
+
+           <div class="navbar-start">
+            
           </div>
     </header>
     <main>
